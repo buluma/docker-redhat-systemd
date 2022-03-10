@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/ubi
+FROM registry.access.redhat.com/ubi7/ubi
 
 LABEL maintainer="Michael Buluma <me@buluma.me.ke>"
 LABEL build_date="2022-03-10"
