@@ -1,7 +1,11 @@
 name: build-push
 
 on:
+  pull_request:
   push:
+  schedule:
+    - cron: '39 2,5 * * *'
+  workflow_dispatch:
 
 jobs:
   docker:
