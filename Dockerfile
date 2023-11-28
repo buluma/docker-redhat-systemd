@@ -1,7 +1,7 @@
 FROM registry.access.redhat.com/ubi8/ubi
 
-LABEL maintainer="Michael Buluma <me@buluma.me.ke>"
-LABEL build_date="2022-03-10"
+LABEL maintainer="Michael Buluma"
+LABEL build_date="2023-11-26"
 
 ENV container=docker
 
